@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "VideoGame",
+      "request": "launch",
+      "mainClass": "Week3.VideoGame",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Videogame",
+      "request": "launch",
+      "mainClass": "Week3.Videogame",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Pattern",
       "request": "launch",
       "mainClass": "Assignment1.Pattern",
