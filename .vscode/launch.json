@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Testcar",
+      "request": "launch",
+      "mainClass": "Week2.Testcar",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "People",
+      "request": "launch",
+      "mainClass": "Week2.People",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "GreadestCommon",
       "request": "launch",
       "mainClass": "Assignment1.GreadestCommon",
