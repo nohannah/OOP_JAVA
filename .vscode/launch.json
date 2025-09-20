@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Banktest",
+      "request": "launch",
+      "mainClass": "Week2.Banktest",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "TestBook",
+      "request": "launch",
+      "mainClass": "Week2.TestBook",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Testcar",
       "request": "launch",
       "mainClass": "Week2.Testcar",

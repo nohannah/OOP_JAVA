@@ -14,7 +14,7 @@ package Week2;
     }
     void startCar()
     {
-        System.out.println( this.make + "" + this.model + " Car is starting" );
+        System.out.println( this.make + " " + this.model + " Car is starting" );
     }
     @Override //learn in future
     public String toString()
