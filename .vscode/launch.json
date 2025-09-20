@@ -3,6 +3,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GreadestCommon",
+      "request": "launch",
+      "mainClass": "Assignment1.GreadestCommon",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Collatz",
+      "request": "launch",
+      "mainClass": "Assignment1.Collatz",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Assignment1.Fibonacci",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Fibona",
+      "request": "launch",
+      "mainClass": "Assignment1.Fibona",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "SumofDigit",
+      "request": "launch",
+      "mainClass": "Assignment1.SumofDigit",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "ReverseDigit",
+      "request": "launch",
+      "mainClass": "Assignment1.ReverseDigit",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Assignment1.Factorial",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "multiplication",
+      "request": "launch",
+      "mainClass": "Assignment1.multiplication",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "PrimeNumber",
+      "request": "launch",
+      "mainClass": "Assignment1.PrimeNumber",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "OddEvenSum",
+      "request": "launch",
+      "mainClass": "Assignment1.OddEvenSum",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "VideoGame",
       "request": "launch",
       "mainClass": "Week3.VideoGame",

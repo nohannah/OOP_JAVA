@@ -11,12 +11,16 @@ public class ReverseDigit {
         String numString = String.valueOf(n);
         int digit = numString.length();
         //System.out.println("Number of digits: " + digit);
-
+        boolean isNegative = n < 0;
+        n=Math.abs(n);
         int reverse = 0;
-        for ( int i=0; i<digit ; i++ )
-        {
-          reverse = reverse * 10 + n % 10; // take the reminder and add it to the reverse variable
-            n = n / 10; // take the result and drop the reminder
+        while (n != 0) {
+            reverse = reverse * 10 + n % 10; // take the last digit
+            n = n / 10;                      // drop the last digit
+        }
+
+        if (isNegative) {
+            reverse = -reverse; // put back the minus sign
         }
         System.out.println("The reverse of the number is: " + reverse);
         num.close();
