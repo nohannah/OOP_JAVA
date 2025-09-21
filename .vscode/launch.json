@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Student",
+      "request": "launch",
+      "mainClass": "Practice.Student",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Week3.Main",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Banktest",
       "request": "launch",
       "mainClass": "Week2.Banktest",
