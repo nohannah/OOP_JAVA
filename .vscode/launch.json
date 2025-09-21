@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Ractangle",
+      "request": "launch",
+      "mainClass": "Practice.Ractangle",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Student",
       "request": "launch",
       "mainClass": "Practice.Student",
