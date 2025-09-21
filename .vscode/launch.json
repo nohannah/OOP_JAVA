@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Libarytest",
+      "request": "launch",
+      "mainClass": "Practice.Libarytest",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Employee",
       "request": "launch",
       "mainClass": "Practice.Employee",
