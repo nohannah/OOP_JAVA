@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Book",
+      "request": "launch",
+      "mainClass": "Practice.Book",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Practice.Main",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Libarytest",
       "request": "launch",
       "mainClass": "Practice.Libarytest",
