@@ -8,8 +8,8 @@ public class ReverseDigit {
         System.out.println("Enter the Number:");
         int n= num.nextInt();
         //counting the number of digits
-        String numString = String.valueOf(n);
-        int digit = numString.length();
+        //String numString = String.valueOf(n);
+        //int digit = numString.length();
         //System.out.println("Number of digits: " + digit);
         boolean isNegative = n < 0;
         n=Math.abs(n);
