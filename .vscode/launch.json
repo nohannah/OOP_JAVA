@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Loan",
+      "request": "launch",
+      "mainClass": "Practice.Loan",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Book",
       "request": "launch",
       "mainClass": "Practice.Book",
