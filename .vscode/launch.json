@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Bankmain",
+      "request": "launch",
+      "mainClass": "Bank.Bankmain",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "LoanAccount",
+      "request": "launch",
+      "mainClass": "Week2.LoanAccount",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Loan",
       "request": "launch",
       "mainClass": "Practice.Loan",
