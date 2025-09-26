@@ -7,14 +7,14 @@ public class Bankmain {
         b1.deposit(1300);
         b1.withdraw(200);
         b1.display();
-        //b1.addinterestRate();  
+        b1.addinterestRate();  
         b1.calculateCompoundInterest();     
         System.out.println(b1);
 
         b2.deposit(2300);
         b2.withdraw(300);
         b2.display();
-        //b2.addinterestRate();
+        b2.addinterestRate();
         System.out.println(b2);
 
     }

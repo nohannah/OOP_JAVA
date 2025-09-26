@@ -8,13 +8,13 @@ public class SavingAccount extends Bank {
     public SavingAccount(int BankAccount, String AccountHolder, float Balance , int Year, double interestRate)
     {
         super(BankAccount,AccountHolder,Balance ,Year);
-        this.InterestRate= interestRate;
+        this.InterestRate = interestRate;
     }
 
     public void addinterestRate()
     {    
         float BalanceAmount=(float)((super.Balance* InterestRate/100) *Year + super.Balance);
-        System.out.println("The rate of this amount is : " + BalanceAmount + " in "+  super.Year + "Years" );
+        System.out.println("The rate of this amount is : " + BalanceAmount + "in "+  super.Year + " Years" );
     }
 
 }
