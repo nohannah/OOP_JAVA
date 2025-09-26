@@ -4,10 +4,10 @@ package Bank;
 public class Bank  {
     int BankAccount;
     String AccountHolder;
-    int Balance; 
+    float Balance; 
     int Year;
 
-    Bank (int BankAccount, String AccountHolder, int Balance,int Year)
+    Bank (int BankAccount, String AccountHolder, float Balance,int Year)
     {
         this.BankAccount= BankAccount; 
         this.AccountHolder= AccountHolder; 
@@ -21,7 +21,7 @@ public class Bank  {
     }
     void display()
     {
-        System.out.println("This is your current balance :" + this.Balance);
+        System.out.println("This is your current balance :" + Balance);
     }
     void withdraw( double amount)
     {
