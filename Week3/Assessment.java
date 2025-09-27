@@ -71,11 +71,11 @@ public class Assessment{
         fudgeMark=bestFudge;
     }
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return "Assessment [name=" + name + ", mark=" + mark + ", totalmark=" + totalmark + ", ComputerGrade()="
-                + ComputerGrade() + "]";
+         + ComputerGrade() + "]";
     }
-
     
 }
 
