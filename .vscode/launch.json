@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PizzaMain",
+      "request": "launch",
+      "mainClass": "Week3.PizzaMain",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "MainStudent",
       "request": "launch",
       "mainClass": "Week3.MainStudent",
