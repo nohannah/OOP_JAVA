@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Circle",
+      "request": "launch",
+      "mainClass": "Practice.Circle",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Dog",
       "request": "launch",
       "mainClass": "Practice.Dog",

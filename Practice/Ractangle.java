@@ -6,14 +6,30 @@ package Practice;
 import java.util.Scanner;
 
 public class Ractangle {
-    float length ; 
-    float width ; 
+    private float length ; 
+    private float width ; 
     Ractangle ( float length , float width )
     {
         this.length = length ; 
         this.width = width; 
     }
+    public float getLength()
+    {
+        return length;
+    }
+    public float getwidth()
+    {
+        return width;
+    }
 
+    public void setLength(float length)
+    {
+        this.length=length;
+    }
+    public void setWidth(float width)
+    {
+        this.width=width;
+    }
     float getArea()
     {
         return length * width ; 
