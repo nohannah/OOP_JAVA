@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Person",
+      "request": "launch",
+      "mainClass": "Practice.Person",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "PizzaMain",
       "request": "launch",
       "mainClass": "Week3.PizzaMain",
