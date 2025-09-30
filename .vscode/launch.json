@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Dog",
+      "request": "launch",
+      "mainClass": "Practice.Dog",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Person",
       "request": "launch",
       "mainClass": "Practice.Person",
