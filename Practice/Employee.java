@@ -6,6 +6,8 @@
 
 package Practice;
 
+import java.util.Scanner;
+
 public class Employee {
     private int id; 
     private String name; 
@@ -58,19 +60,35 @@ public class Employee {
     }
     public static void main ( String [] args)
     {
-        Employee emp1 = new Employee ( 1 , "Alice" , 50000);
-        Employee emp2 = new Employee ( 2 , "Bob" , 60000);
+        Scanner emp= new Scanner(System.in);
+        System.out.println("Enter the ID employee :");
+        int id1 = emp.nextInt();
+        System.out.println("Enter the name employee :");
+        String name1 = emp.nextLine();
+        emp.nextLine();
+        System.out.println("Enter the employee salary :");
+        int salary1 = emp.nextInt();
+        Employee employee1=new Employee(id1, name1, salary1); 
 
-        System.out.println("Employee 1: ID=" + emp1.getId() + ", Name=" + emp1.getName() + ", Salary=" + emp1.getSalary());
-        System.out.println("Employee 2: ID=" + emp2.getId() + ", Name=" + emp2.getName() + ", Salary=" + emp2.getSalary());
+        System.out.println("Enter the ID employee :");
+        int id2 = emp.nextInt();
+        System.out.println("Enter the name employee :");
+        String name2 = emp.nextLine();
+        emp.nextLine();
+        System.out.println("Enter the salary:");
+        int salary2 = emp.nextInt();
+        Employee employee2=new Employee(id2, name2, salary2); 
+        System.out.println("Employee 1: ID=" + employee1.getId() + ", Name=" + employee1.getName() + ", Salary=" + employee1.getSalary());
+        System.out.println("Employee 2: ID=" + employee2.getId() + ", Name=" + employee2.getName() + ", Salary=" + employee2.getSalary());
 
-        emp1.applyBonus(10); // 10% bonus
-        emp2.applyBonus(5);  // 5% bonus
+        employee1.applyBonus(10); // 10% bonus
+        employee2.applyBonus(5);  // 5% bonus
 
         System.out.println("After applying bonus:");
-        System.out.println("Employee 1: ID=" + emp1.getId() + ", Name=" + emp1.getName() + ", Salary=" + emp1.getSalary());
-        System.out.println("Employee 2: ID=" + emp2.getId() + ", Name=" + emp2.getName() + ", Salary=" + emp2.getSalary());
+        System.out.println("Employee 1: ID=" + employee1.getId() + ", Name=" + employee1.getName() + ", Salary=" + employee1.getSalary());
+        System.out.println("Employee 2: ID=" + employee2.getId() + ", Name=" + employee2.getName() + ", Salary=" + employee2.getSalary());
 
         System.out.println("Total number of employees: " + Employee.getNumberEmployees());
+        emp.close();
     }
 }
