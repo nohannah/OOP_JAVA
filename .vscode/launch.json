@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "ShapeTest",
+      "request": "launch",
+      "mainClass": "Week4.ShapeTest",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "TrafficLight",
       "request": "launch",
       "mainClass": "Practice.TrafficLight",

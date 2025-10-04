@@ -1,42 +1,56 @@
-package Week4;
+public class ClosedShape 
+{
+    private int X;
+    private int Y;
 
-public class ClosedShape {
-    private int y;
-    private int x;
-    //default value
-    public ClosedShape()
+
+    public ClosedShape()          // defulte constructor, 
     {
-        this(0,0);
+        this (0,0);           // if we do not input any value by defulte the value for x and y would be 0,0
     }
-    public ClosedShape(int x , int y)
+
+    public ClosedShape(int X, int Y)                 //TODO Auto-generated constructor stub (this is the general contructor)
     {
-        this.x= x;
-        this.y=y;
+       this.X=X;
+       this.Y=Y;
     }
-    public int gety()
+
+    public int getX() 
     {
-        return y;
+        return X;
     }
-    public void setx()
+
+    public void setX(int x) 
     {
-        return x;
+        X = x;
     }
-    public void sety()
+
+    public int getY() 
     {
-        return y;
+        return Y;
     }
-    public double getArea()
+
+    public void setY(int y) 
+    {
+        Y = y;
+    }
+
+    public double getArea ()          // the method for geting the area
     {
         return 0;
     }
-    public double getPerimeter()
+
+    public double getPerimeter()      // the method for getting the perimeter
     {
         return 0;
     }
+
 
     @Override
-    public String toString()
+    public String toString() 
     {
-        return "ClosedShape[X=" + x + "y=" + y "]";
+        return "ClosedShape [X=" + X + ", Y=" + Y + "]";
     }
+    
+
 }
