@@ -1,7 +1,7 @@
 package Week4;
 
 public class Circle extends ClosedShape {
-    private double myradius;
+    private double radius;
     
     public Circle()
     {
@@ -18,9 +18,13 @@ public class Circle extends ClosedShape {
     }
     public double getRadius(){return radius;}
     public double getArea(){this.radius=radius;}
+    
+    public class getArea(){return Math.PI * radius * radius ;}
+    public class getPerimeter(){return 2*Math.PI * radius;}
 
     public String toString()
     {
         return super.toString() + "Radius" + radius; 
     }
+
 }

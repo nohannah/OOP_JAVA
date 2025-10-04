@@ -25,6 +25,15 @@ public class ClosedShape {
     {
         return y;
     }
+    public double getArea()
+    {
+        return 0;
+    }
+    public double getPerimeter()
+    {
+        return 0;
+    }
+
     @Override
     public String toString()
     {
