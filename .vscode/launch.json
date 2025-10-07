@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestBurger",
+      "request": "launch",
+      "mainClass": "TestBurger",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "TestBurger",
+      "request": "launch",
+      "mainClass": "Practice.TestBurger",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "CourseMain",
       "request": "launch",
       "mainClass": "Week4.CourseMain",
