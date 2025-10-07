@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CourseMain",
+      "request": "launch",
+      "mainClass": "Week4.CourseMain",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Factorial",
       "request": "launch",
       "mainClass": "Factorial",
