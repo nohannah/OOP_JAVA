@@ -17,7 +17,7 @@ public class Bank  {
     void deposit (float amount)
     {
         Balance += amount; 
-        System.out.println("Your desopit amount is :" + amount);
+        System.out.println("Your desopit amount is :" + amount + "Your balance now is :" + Balance);
     }
     void display()
     {
@@ -30,7 +30,7 @@ public class Bank  {
         }
         else {
             Balance -= amount; 
-            System.out.println("The amount withdrawn is : " + amount );
+            System.out.println("The amount withdrawn is : " + amount + " || " + "The new Balance is : " + Balance );
         }
     }
 }

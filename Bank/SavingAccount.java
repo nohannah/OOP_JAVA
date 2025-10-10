@@ -10,7 +10,7 @@ public class SavingAccount extends Bank {
         super(BankAccount,AccountHolder,Balance ,Year);
         this.InterestRate = interestRate;
     }
-
+    //@Override
     public void addinterestRate()
     {    
         float BalanceAmount=(float)((super.Balance* InterestRate/100) *Year + super.Balance);
