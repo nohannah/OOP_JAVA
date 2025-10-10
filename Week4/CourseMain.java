@@ -1,7 +1,4 @@
 package Week4;
-
-package Week5;
-
 import java.util.ArrayList;
 
 public class CourseMain {
