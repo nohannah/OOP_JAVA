@@ -8,7 +8,7 @@ public class BankAccount {
         this.AccountNumber=AccountNumber;
         this.balance=balance;
     }
-    void deposit(double balance)
+    void deposit(double amount)
     {
         balance+= amount ;
         System.out.println("Deposited $" + amount + ". New balance: $" + balance);
@@ -17,11 +17,11 @@ public class BankAccount {
     void withdraw( double amount){
     System.out.println("Withdrawal rules depend on account type.");
     }
-    public double calculateInterst(){
-        return 0,0;
+    public double calculateInterest(){
+        return 0.0;
     }
     public String toString(){
-    return "Account: " + accountNumber + " | Balance: $" + balance;
+    return "Account: " + AccountNumber + " | Balance: $" + balance;
 
     }
 }

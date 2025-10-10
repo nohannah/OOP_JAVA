@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BankSystemTest",
+      "request": "launch",
+      "mainClass": "BankAccountSystem.BankSystemTest",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "ShapeTest",
       "request": "launch",
       "mainClass": "ShapeTest",
