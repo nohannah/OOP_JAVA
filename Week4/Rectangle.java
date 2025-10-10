@@ -33,6 +33,6 @@ public class Rectangle extends ClosedShape {
     @Override
     public String toString() 
     {
-        return super.toString() + "Width: " + myWidth + "height: " + myHeight;
+        return super.toString() + "Width: " + width + "height: " + height;
     }
 }

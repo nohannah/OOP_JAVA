@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ShapeTest",
+      "request": "launch",
+      "mainClass": "ShapeTest",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "SmartHomeSystem",
       "request": "launch",
       "mainClass": "AssignmentWeek4.SmartHomeSystem",
