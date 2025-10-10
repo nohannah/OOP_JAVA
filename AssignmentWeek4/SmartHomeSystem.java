@@ -86,4 +86,25 @@ public void SmartHomeSystem
             new SecurityCamera("Front door camera")
         };
     }
+
+    //control 
+    for( SmartDevice device : devices)
+    {
+        device.turnOn();
+        device.showStatus();
+        System.out.println();
+    }
+     // Device-specific actions using type checking
+        for (SmartDevice device : devices) {
+            if (device instanceof Light) {
+                ((Light) device).dimLight();
+            } else if (device instanceof Thermostat) {
+                ((Thermostat) device).setTemperature(22);
+            } else if (device instanceof SecurityCamera) {
+                ((SecurityCamera) device).recordVideo();
+            }
+        }
+         System.out.println("\nTurning off all devices...");
+        for (SmartDevice device : devices) {
+            device.turnOff();
 }
