@@ -40,9 +40,9 @@ public class DemoLognook {
                 System.out.println(p.getDetails());
                 break;
                 case4: 
-                String e_name= int.nextLine();
-                String e_email=int.nextLine();
-                String e_department=int.nextLine();
+                String e_name= in.nextLine();
+                String e_email=in.nextLine();
+                String e_department=in.nextLine();
                 logbook.editPerson(e_name, e_email, e_department);
                 break;
                 case 5: 
@@ -50,7 +50,7 @@ public class DemoLognook {
                 lohbook.removerPerson(r_name);
                 break;
                 case 6: logbook.displayAll();
-                breal;
+                break;
                 default: 
                 System.out.println("not valid choice");
             }
