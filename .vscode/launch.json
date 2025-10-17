@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Titanic",
+      "request": "launch",
+      "mainClass": "Mid.Titanic",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "SumOddEven",
       "request": "launch",
       "mainClass": "Practice.SumOddEven",
