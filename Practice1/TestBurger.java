@@ -1,4 +1,4 @@
-package Practice;
+package Practice1;
 
 
 // Enum for burger sizes

@@ -4,7 +4,7 @@
 // Method: applyBonus(double percent) to increase salary 
 // Use a static variable to count number of employees created.
 
-package Practice;
+package Practice1;
 
 import java.util.Scanner;
 

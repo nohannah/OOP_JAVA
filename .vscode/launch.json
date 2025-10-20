@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MainBank",
+      "request": "launch",
+      "mainClass": "Midterm.MainBank",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Titanic",
       "request": "launch",
       "mainClass": "Mid.Titanic",

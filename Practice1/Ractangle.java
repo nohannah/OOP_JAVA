@@ -2,7 +2,7 @@
 // Methods: getArea(), getPerimeter()
 // In main(), create 2 rectangles and compare their areas.
 
-package Practice;
+package Practice1;
 import java.util.Scanner;
 
 public class Ractangle {

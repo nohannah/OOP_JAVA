@@ -3,7 +3,7 @@
 // Method: displayInfo()
 // In main(), create an array of 5 students and print their details.
 
-package Practice;
+package Practice1;
 import java.util.Scanner;
 
 public class Student {

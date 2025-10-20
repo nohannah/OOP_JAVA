@@ -1,4 +1,4 @@
-package Practice ;
+package Practice1 ;
 // TrafficLight.java
 public class TrafficLight {
     // Attributes

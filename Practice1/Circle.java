@@ -1,6 +1,6 @@
 // Write a Java program to create a class called "Circle" with a radius attribute.
 //  You can access and modify this attribute. Calculate the area and circumference of the circle.
-package Practice;
+package Practice1;
 import static java.lang.Math.PI;
 
 import java.util.Scanner;
