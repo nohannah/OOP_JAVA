@@ -5,6 +5,13 @@
       "type": "java",
       "name": "MainBank",
       "request": "launch",
+      "mainClass": "Practice2.MainBank",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "MainBank",
+      "request": "launch",
       "mainClass": "Midterm.MainBank",
       "projectName": "OOP_JAVA_8c9f881d"
     },
