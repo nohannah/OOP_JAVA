@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Testbook",
+      "request": "launch",
+      "mainClass": "Week7.Testbook",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "MainBank",
       "request": "launch",
       "mainClass": "Practice2.MainBank",
