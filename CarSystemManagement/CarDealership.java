@@ -1,5 +1,4 @@
 package CarSystemManagement;
-
 import java.util.ArrayList;
 
 // CarDealership.java - Manages car inventory

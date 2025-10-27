@@ -1,14 +1,30 @@
-package CarSystemManagement;
-
+// MaintenanceSystem.java - Handles maintenance and fuel calculations
 public class MaintenanceSystem {
     private double mileage;
-    private double fuelEfficiency; // in km/l
+    private double fuelEfficiency;
 
-    public MaintenanceSystem(double mileage, double fuelEfficiency) {
+    public MaintenanceSystem() {
         this.mileage = 0;
-        this.fuelEfficiency = 10;
+        this.fuelEfficiency = 10; // default km per liter
     }
-      // Getters and Setters
+
+    public String serviceRequired() {
+        if (mileage > 10000) {
+            return "Service required!";
+        }
+        return "No service needed.";
+    }
+
+    public double calculateRange(double fuelAmount) {
+        return fuelAmount * fuelEfficiency;
+    }
+
+    public void displayRange(double fuelAmount) {
+        double range = calculateRange(fuelAmount);
+        System.out.println("Range: " + range + " km");
+    }
+
+    // Getters and Setters
     public double getMileage() { return mileage; }
     public void setMileage(double mileage) { this.mileage = mileage; }
     
@@ -16,19 +32,4 @@ public class MaintenanceSystem {
     public void setFuelEfficiency(double fuelEfficiency) { 
         this.fuelEfficiency = fuelEfficiency; 
     }
-    public String serviceRequired(){
-        if(mileage >= 10000){
-            return "Service Required";
-        }
-        return "No service needed";
-    }
-    public double calculateRange(double fuelAmount)
-    {
-        return fuelAmount * fuelEfficiency;
-    }
-    public void displayRange(double fuelAmount){
-        double range = calculateRange(fuelAmount);
-        System.out.println("The car can travel approximately " + range + " km with " + fuelAmount + " liters of fuel.");
-    }
-
 }

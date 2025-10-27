@@ -1,23 +1,23 @@
 package CarSystemManagement;
-
+// FinancialCalculator.java - Handles purchase and insurance calculations
 public class FinancialCalculator {
-    public double calculator(double price, double downPayment, double monthlyPayment , int months){
+    
+    public double calculateTotalCost(double downPayment, double monthlyPayment, int months) {
         return downPayment + (monthlyPayment * months);
     }
-    public double calculateInterest(double baseRate, int carAge){
-        if(carAge > 5)
-        {
-            return baseRate + 0.9 ;
+
+    public double calculateInsurance(double baseRate, int carAge) {
+        if (carAge > 5) {
+            return baseRate * 0.9; // 10% discount
         }
         return baseRate;
+    }
+
+    public void displayCosts(double downPayment, double monthlyPayment, int months, double baseRate, int carAge) {
+        double totalCost = calculateTotalCost(downPayment, monthlyPayment, months);
+        double insuranceCost = calculateInsurance(baseRate, carAge);
         
+        System.out.println("Total Cost: $" + totalCost);
+        System.out.println("Insurance Cost: $" + insuranceCost);
     }
-    public void displayCost(double downPayment, double monthlyPayment, int months, double baseRate, int carAge)
-    {
-        double totalCost = calculator(0, downPayment, monthlyPayment, months);
-        double interestRate = calculateInterest(baseRate, carAge);
-        System.out.println("Total Cost of the Car: $" + totalCost);
-        System.out.println("Applicable Interest Rate: " + interestRate + "%");
-    }
-    
 }

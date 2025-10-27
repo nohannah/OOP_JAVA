@@ -1,5 +1,4 @@
 package CarSystemManagement;
-
 // ElectricCar.java - Electric Car specialization (extends Car)
 public class ElectricCar extends Car {
     private double batteryCapacity;

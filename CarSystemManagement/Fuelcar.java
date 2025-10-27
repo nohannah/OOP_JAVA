@@ -1,7 +1,5 @@
 package CarSystemManagement;
-
-public class Fuelcar {
-    // FuelCar.java - Fuel Car specialization (extends Car)
+// FuelCar.java - Fuel Car specialization (extends Car)
 public class FuelCar extends Car {
     private double fuelTankCapacity;
     private double currentFuel;
@@ -38,6 +36,4 @@ public class FuelCar extends Car {
     // Getters
     public double getFuelTankCapacity() { return fuelTankCapacity; }
     public double getCurrentFuel() { return currentFuel; }
-}
-    
 }
