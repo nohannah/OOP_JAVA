@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "quandratic",
+      "request": "launch",
+      "mainClass": "quandratic",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Testbook",
       "request": "launch",
       "mainClass": "Week7.Testbook",
