@@ -54,6 +54,7 @@ public static void main(String[] args) {
         System.out.println("Highest Grade : " + gm.getHighestGrade());
         
         gm.removeGrade(2);
+        gm.removeGrade(10);
         System.out.println("Grade removes at index 2");
         System.out.println("Update" + gm.grades);
          
