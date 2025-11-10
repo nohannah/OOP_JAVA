@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StudentGrade",
+      "request": "launch",
+      "mainClass": "JavaFrame.StudentGrade",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "quandratic",
       "request": "launch",
       "mainClass": "quandratic",

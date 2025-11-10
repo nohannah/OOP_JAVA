@@ -1,19 +1,18 @@
 package JavaFrame;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
-import java.util.Scanner;
+//import java.util.Scanner;
 public class StudentGrade {
 
-    Scanner num= new Scammer ( System.in);
     private ArrayList<Integer> grades= new ArrayList<>();
 
-    public void addGrade(int grade)
-    if(grade >=0 ||  grade <=100) {
+    public void addGrade(int grade){
+    if(grade <0 ||  grade >100) {
         throw new IllegalArgumentException("Grade must be between 0 and 100."); 
     }
-    grade.add(grade); 
-
-   }
+    grades.add(grade); 
+    }
+   
    public double calculateAverage()
     { 
         if(grades.isEmpty()) {
@@ -39,11 +38,11 @@ public class StudentGrade {
     if(index <0 || index >= grades.size()){
         throw new IndexOutOfBoundsException(" Index 10 is out of bounds");
     }
-    grade.remove([index]);
+    grades.remove(index);
    }
-   
+
 public static void main(String[] args) {
-    GradeManager gm = new GradeManager();
+    StudentGrade gm = new StudentGrade();
 
     try {
         gm.addGrade(85);
@@ -53,9 +52,12 @@ public static void main(String[] args) {
         gm.addGrade(88);
         System.out.println("Average Grade:" + gm.calculateAverage());
         System.out.println("Highest Grade : " + gm.getHighestGrade());
+        
         gm.removeGrade(2);
         System.out.println("Grade removes at index 2");
-        System.out.println("UpdateGrade" + gm.GradeManager);
+        System.out.println("Update" + gm.grades);
+         
+      
     } catch (IllegalArgumentException e)
     {
         System.out.println("Error: " + e.getMessage());
@@ -68,4 +70,5 @@ public static void main(String[] args) {
     {
         System.out.println("Error:" + e.getMessage());
     }
+}
 }
