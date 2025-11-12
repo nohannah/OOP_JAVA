@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Thread",
+      "request": "launch",
+      "mainClass": "Thread",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "StudentGrade",
       "request": "launch",
       "mainClass": "JavaFrame.StudentGrade",
