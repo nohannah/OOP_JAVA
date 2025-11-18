@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StudentManager",
+      "request": "launch",
+      "mainClass": "JavaFrame.StudentManager",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "StudentManager",
+      "request": "launch",
+      "mainClass": "Project.StudentManager",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Abstract.Main",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Thread",
       "request": "launch",
       "mainClass": "Thread",
