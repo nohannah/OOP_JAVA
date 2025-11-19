@@ -1,10 +1,9 @@
-package Part7;
+package Part5;
 
-// Student.java
 import java.util.Objects;
 
 public class Student {
-    private String studentId;
+     private String studentId;
     private String name;
     private String email;
     private int year;
@@ -31,15 +30,14 @@ public class Student {
     
     @Override
     public String toString() {
-        return String.format("Student ID: %s, Name: %s, Email: %s, Year: %d", 
-                           studentId, name, email, year);
+        return "Student{studentId='" + studentId + "', name='" + name + "', email='" + email + "', year=" + year + "}";
     }
     
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Student student = (Student) obj;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
         return Objects.equals(studentId, student.studentId);
     }
     
