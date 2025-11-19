@@ -5,6 +5,27 @@
       "type": "java",
       "name": "CourseCatalog",
       "request": "launch",
+      "mainClass": "Part8.CourseCatalog",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "CourseManagementSystem",
+      "request": "launch",
+      "mainClass": "Part8.CourseManagementSystem",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "CourseManagementSystem",
+      "request": "launch",
+      "mainClass": "Project.CourseManagementSystem",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "CourseCatalog",
+      "request": "launch",
       "mainClass": "Project.CourseCatalog",
       "projectName": "OOP_JAVA_8c9f881d"
     },

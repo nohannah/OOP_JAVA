@@ -1,5 +1,4 @@
-package Project;
-
+package Part8;
 import java.util.*;
 
 public class GradeManager {
@@ -9,9 +8,7 @@ public class GradeManager {
         this.gradeBook = new TreeMap<>();
     }
     
-    /**
-     * Task 6.1.4: Assign grade for a student in a course
-     */
+   
     public void assignGrade(String studentId, String courseCode, double grade) {
         StudentCourseKey key = new StudentCourseKey(studentId, courseCode);
         if (grade < 0.0 || grade > 4.0) {
@@ -23,17 +20,13 @@ public class GradeManager {
                           studentId + " for course " + courseCode);
     }
     
-    /**
-     * Task 6.1.5: Get grade for a specific student and course
-     */
+   
     public double getGrade(String studentId, String courseCode) {
         StudentCourseKey key = new StudentCourseKey(studentId, courseCode);
         return gradeBook.getOrDefault(key, -1.0);
     }
     
-    /**
-     * Task 6.1.6: Calculate GPA for a student
-     */
+
     public double getStudentGPA(String studentId) {
         double sum = 0.0;
         int count = 0;
@@ -48,9 +41,7 @@ public class GradeManager {
         return count > 0 ? sum / count : 0.0;
     }
     
-    /**
-     * Task 6.1.7: Get all grades for a specific student
-     */
+    
     public Map<String, Double> getAllGradesForStudent(String studentId) {
         Map<String, Double> studentGrades = new TreeMap<>();
         
@@ -67,9 +58,6 @@ public class GradeManager {
         return studentGrades;
     }
     
-    /**
-     * Task 6.1.8: Find the highest grade across all records
-     */
     public double getHighestGrade() {
         if (gradeBook.isEmpty()) {
             return -1.0;
@@ -101,9 +89,7 @@ public class GradeManager {
         }
     }
     
-    /**
-     * Additional helper method to display student transcript
-     */
+    
     public void displayStudentTranscript(String studentId, Map<String, String> courseNames) {
         Map<String, Double> grades = getAllGradesForStudent(studentId);
         
