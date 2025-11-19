@@ -1,4 +1,4 @@
-package Part3;
+package Project;
 
 
     public class Part3Test {

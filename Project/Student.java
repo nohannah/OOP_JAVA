@@ -1,4 +1,4 @@
-package Part7;
+package Project;
 
 // Student.java
 import java.util.Objects;

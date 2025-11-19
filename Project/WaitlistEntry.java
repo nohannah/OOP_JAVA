@@ -1,4 +1,4 @@
-package Part7;
+package Project;
 
 import java.time.Instant;
 

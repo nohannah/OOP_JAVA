@@ -1,4 +1,4 @@
-package Part3;
+package Project;
 
 import java.util.HashSet;
 import java.util.Arrays;
