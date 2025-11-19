@@ -1,7 +1,7 @@
 package Project;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.ListIterator
+import java.util.ListIterator;
 public class CourseCatalog {
  private LinkedList<Course> courseCatalog;
     
