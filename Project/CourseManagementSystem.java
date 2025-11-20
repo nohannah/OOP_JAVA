@@ -2,8 +2,8 @@ package Part2;
 
 import java.util.*;
 
+import Part1.StudentManager;
 import Project.EnrollmentManager;
-import Project.StudentManager;
 
 public class CourseManagementSystem {
     // Use the existing collection instances from previous parts
