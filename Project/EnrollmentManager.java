@@ -1,6 +1,8 @@
 package Project;
 import java.util.*;
 
+import Part2.Course;
+
 public class EnrollmentManager {
     private HashMap<Student, List<Course>> enrollmentMap;
     

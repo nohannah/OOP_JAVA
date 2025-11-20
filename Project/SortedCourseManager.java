@@ -1,5 +1,8 @@
 package Project;
 import java.util.TreeSet;
+
+import Part2.Course;
+
 import java.util.SortedSet;
 
 public class SortedCourseManager {

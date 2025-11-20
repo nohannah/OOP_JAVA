@@ -1,4 +1,4 @@
-package Project;
+package Part2;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
@@ -38,7 +38,7 @@ public class CourseCatalog {
     
     // Display courses in forward direction using for-each loop
     public void displayCoursesForward() {
-        System.out.println("\n=== Course Catalog (Forward) ===");
+        System.out.println("\nCourse Catalog (Forward) ");
         if (courseCatalog.isEmpty()) {
             System.out.println("No courses available.");
             return;
@@ -51,7 +51,7 @@ public class CourseCatalog {
     
     // Display courses in backward direction using descending iterator
     public void displayCoursesBackward() {
-        System.out.println("\n=== Course Catalog (Backward) ===");
+        System.out.println("\n Course Catalog (Backward) ");
         if (courseCatalog.isEmpty()) {
             System.out.println("No courses available.");
             return;
@@ -96,7 +96,7 @@ public class CourseCatalog {
         System.out.println("=== PART 2: COURSE CATALOG WITH LINKEDLIST ===");
         
         // Test Case 1: Add 3 courses at the end
-        System.out.println("\n--- Adding 3 courses at the end ---");
+        System.out.println("\nAdding 3 courses at the end");
         catalog.addCourseAtEnd(course1);
         catalog.addCourseAtEnd(course2);
         catalog.addCourseAtEnd(course3);
@@ -105,7 +105,7 @@ public class CourseCatalog {
         catalog.displayCoursesForward();
         
         // Test Case 2: Add 2 courses at the beginning
-        System.out.println("\n--- Adding 2 courses at the beginning ---");
+        System.out.println("\n Adding 2 courses at the beginning ");
         catalog.addCourseAtBeginning(course4);
         catalog.addCourseAtBeginning(course5);
         
@@ -114,12 +114,12 @@ public class CourseCatalog {
         catalog.displayCoursesBackward();
         
         // Test Case 3: Remove a course from the middle
-        System.out.println("\n--- Removing course from the middle (CSC201) ---");
+        System.out.println("\n Removing course from the middle (CSC201) ");
         catalog.removeCourse("CSC201");
         catalog.displayCoursesForward();
         
         // Test Case 4: Search for existing and non-existing courses
-        System.out.println("\n--- Searching for courses ---");
+        System.out.println("\nSearching for courses ");
         Course foundCourse = catalog.searchCourse("CSC101");
         if (foundCourse != null) {
             System.out.println("Found course: " + foundCourse);
@@ -135,7 +135,7 @@ public class CourseCatalog {
         }
         
         // Test Case 5: Display final catalog size
-        System.out.println("\n--- Final Catalog Status ---");
+        System.out.println("\nFinal Catalog Status ");
         System.out.println("Total courses in catalog: " + catalog.getCatalogSize());
         catalog.displayCoursesForward();
     }
