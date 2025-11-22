@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+        "type": "java",
+        "name": "ButtonClick",
+        "request": "launch",
+        "mainClass": "ButtonClick",
+        "projectName": "FirstJavaFXProject_e929103f",
+        "vmArgs": "--module-path \"C:/javafx-sdk-25.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+
+
+    },
+    {
+        "type": "java",
+        "name": "Second",
+        "request": "launch",
+        "mainClass": "Second",
+        "projectName": "FirstJavaFXProject_e929103f",
+        "vmArgs": "--module-path \"C:/javafx-sdk-25.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "App",
+        "request": "launch",
+        "mainClass": "App",
+        "projectName": "FirstJavaFXProject_e929103f",
+        "vmArgs": "--module-path \"${workspaceFolder}/lib\" --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+        "type": "java",
+        "name": "Launch First",
+        "request": "launch",
+        "mainClass": "First",
+        "projectName": "week7",
+        "vmArgs": "--module-path \"C:/javafx-sdk-25.0.1/lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+]
+}
