@@ -1,13 +1,12 @@
-import java.lang.reflect.Array;
+package Week10;
 import java.util.ArrayList;
-
-class Person {
+public class Person1 {
 String name;
 int age;
-Person(String name, int age) {
+ArrayList<Todo> todos = new ArrayList<>();
+Person1(String name, int age) {
 this.name = name;
 this.age = age;
-ArrayList<Todo> todo=new ArrayList<>();
 }
 void increaseAge() {
 this.age += 1;
@@ -18,6 +17,10 @@ this.age -= 1;
 void setName(String name) {
 this.name = name;
 }
+public void addTodo(Todo todo) {
+this.todos.add(todo);
+}
+
 @Override
 public String toString() {
 return this.name + ", aged: " + this.age;
