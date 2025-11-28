@@ -1,20 +1,20 @@
 package Problem;
 
 public class InventoryItem extends Product{
-    private String productCode;
-    public InventoryItem(String productName, double price , String productCode)
+    private String ProductCode;
+    public InventoryItem(String productName, double price , String ProductCode)
     {
         super(productName, price);
-        this.productcode=productCode;
+        this.ProductCode=ProductCode;
     }
     public String getProductCode(){
-        return productCode;
+        return ProductCode;
     }
     public void setProductCode(String productCode){
-        this.productCode=productCode;
+        this.ProductCode=ProductCode;
     }
     public void displayDetails(){
-        System.out.println("Product Name: " + getProductName()+ ", Price: " + getPrice() + ", Product Code: " + productCode);
+        System.out.println("Product Name: " + getProductName()+ ", Price: " + getPrice() + ", Product Code: " + ProductCode);
     }
-    
+
 } 
