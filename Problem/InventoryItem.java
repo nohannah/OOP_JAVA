@@ -14,6 +14,7 @@ public class InventoryItem extends Product{
         this.productCode=productCode;
     }
     public void displayDetails(){
-        
+        System.out.println("Product Name: " + getProductName()+ ", Price: " + getPrice() + ", Product Code: " + productCode);
     }
+    
 } 

@@ -1,15 +1,15 @@
 package Problem;
 
 public class Product {
-    private String ProductName;
+    private String productName;
     private double price;
 
     public Product(String productName, double price){
-        this.ProductName=productName;
+        this.productName=productName;
         this.price=price;
     }
-    public String getProductName{
-        return Product Name;
+    public String getProductName(){
+        return productName;
     }
     public double getPrice(){
         return price;
@@ -19,6 +19,6 @@ public class Product {
     }
     public void setPrice(String productName)
     {
-        this.ProductName=productName;
+        this.productName=productName;
     }
 }
