@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Menu2",
+      "request": "launch",
+      "mainClass": "Question1.Menu2",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
+      "name": "Menu",
+      "request": "launch",
+      "mainClass": "Question1.Menu",
+      "projectName": "OOP_JAVA_8c9f881d"
+    },
+    {
+      "type": "java",
       "name": "Array1",
       "request": "launch",
       "mainClass": "Array1",
